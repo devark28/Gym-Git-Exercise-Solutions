@@ -182,3 +182,12 @@
   git commit -m 'footer changes squashing'
   git push --set-upstream origin ft/squashing
   ```
+
+## HOTFIX
+
+```shell
+  mv home.html index.html
+  git add -A
+  git commit -m 'Fix: rename home.html to index.html'
+  git push
+  ```
